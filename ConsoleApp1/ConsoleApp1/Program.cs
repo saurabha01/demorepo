@@ -12,6 +12,9 @@ namespace ConsoleApp1
         {
             Console.WriteLine("saurabh");
             Console.WriteLine("hello world");
+            DateTime time = DateTime.Now;
+            Console.WriteLine(time.ToString("h:mm:ss tt"));
+
             Console.ReadLine();
         }
     }
